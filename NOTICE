@@ -1,0 +1,15 @@
+DWG 算量工具包
+Copyright (c) 2026 Pdzapple
+
+本仓库自己的代码和文档按根目录 LICENSE 中的 MIT License 授权。
+署名沿用原工具包中的版权人 Pdzapple。支持与问题请使用本仓库 Issues：
+
+https://github.com/rref37/dwg-quantity-takeoff/issues
+
+MIT 许可只覆盖本仓库中的这些内容。它不授予、也不替代任何第三方软件的许可。
+本仓库不附带、不捆绑下列程序的安装包：ODA File Converter、Autodesk AutoCAD、
+天正、鸿业、DDC DwgExporter，以及 PyMuPDF。Python 依赖的实际使用位置、
+上游许可证和官方来源见 THIRD_PARTY.md。不能根据本文件认为全部依赖都是宽松许可。
+
+工程量统计结果只供复核前参考。使用者需要自行核对图纸、清单和现场条件。
+上述句子是使用提醒，不是在 MIT 之外另加的许可条件。

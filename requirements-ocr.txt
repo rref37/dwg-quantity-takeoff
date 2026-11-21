@@ -1,0 +1,4 @@
+# 可选：仅 09_ocr_table.py 使用，见 dwg-quantity-takeoff/references/tooling.md
+# PaddleOCR 与 PaddlePaddle 为 Apache-2.0。模型文件另有来源。详见仓库根目录 THIRD_PARTY.md。
+paddlepaddle==3.3.1
+paddleocr>=3.7,<4
