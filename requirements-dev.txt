@@ -1,0 +1,4 @@
+# 运行测试: python -m pytest dwg-quantity-takeoff/tests -q
+# pytest 为 MIT。其余依赖见 requirements.txt 与 THIRD_PARTY.md。
+-r requirements.txt
+pytest>=8

@@ -1,0 +1,97 @@
+# 凭据与本地环境。不要提交密钥、令牌或本机配置。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+**/credentials/
+**/secrets/
+
+# Python 虚拟环境、缓存和打包产物
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 日志和临时文件
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# 真实图纸、CAD 锁文件、转换结果和渲染图。
+# 不要用 *.json / *.csv 这种全量规则：--map、--known 和测试夹具都可能是源码文本。
+*.dwg
+*.dxf
+*.dwt
+*.dws
+*.dwl
+*.dwl2
+*.sv$
+*.xlsx
+*.xls
+*.xlsm
+*.pdf
+*.count.txt
+*.fingerprint.txt
+*.windows.txt
+*.detailcheck.txt
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+out/
+output/
+*_out/
+
+# 以后若把合成夹具放进 tests/，不要被上面的图纸规则挡住。当前测试在临时目录生成 DXF，仓库里没有这些文件。
+!dwg-quantity-takeoff/tests/**/*.dxf
+!dwg-quantity-takeoff/tests/**/*.json
+!dwg-quantity-takeoff/tests/**/*.csv
+!dwg-quantity-takeoff/tests/**/*.png
+
+# 安装程序和本机工具副本。不要提交 ODA、AutoCAD、天正、鸿业或 DwgExporter。
+*.exe
+*.msi
+*.msm
+*.msp
+*.msix
+*.appimage
+*.dmg
+*.pkg
+*.deb
+*.rpm
+oda_file_converter/
+ODAFileConverter*/
+DwgExporter*/
+
+# 曾出现在旧工作目录里的临时裁图脚本，不属于本仓库。
+render_crop.py
+
+# 源码压缩包（含清理前的原包）不要进入版本库。
+*.zip
+original*.zip
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

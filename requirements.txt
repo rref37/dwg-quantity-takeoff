@@ -1,0 +1,6 @@
+# 主流程依赖（在仓库根目录执行: pip install -r requirements.txt）
+# 许可不全是 MIT。来源见仓库根目录 THIRD_PARTY.md。不含 ODA / AutoCAD / 天正。
+ezdxf>=1.4,<2
+pandas>=2.0
+xlsxwriter>=3.1
+matplotlib>=3.8
